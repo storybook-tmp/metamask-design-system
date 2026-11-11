@@ -47,11 +47,6 @@ const preview: Preview = {
     },
   ],
   parameters: {
-    options: {
-      storySort: {
-        order: ['Components', 'Patterns', 'Temp Components', '*'],
-      },
-    },
     backgrounds: {
       options: backgroundOptions,
     },
