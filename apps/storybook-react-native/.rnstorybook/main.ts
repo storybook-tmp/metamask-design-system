@@ -11,6 +11,7 @@ const config: StorybookConfig = {
     '@storybook/addon-ondevice-backgrounds',
     '@storybook/addon-ondevice-actions',
   ],
+  storySorts: [{ order: ['Components', 'Patterns', 'Temp Components', '*'] }],
 };
 
 export default config;

@@ -183,6 +183,7 @@ const config: StorybookConfig = {
       },
     };
   },
+  storySorts: [{ order: ['Components', 'Patterns', 'Temp Components', '*'] }],
 };
 
 export default config;
